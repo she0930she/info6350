@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  tableViewXibFile
+//  TableViewXibFile2
 //
-//  Created by Amanda on 2022/2/13.
+//  Created by Amanda on 2022/2/15.
 //
 
 import UIKit

@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  tableViewXibFile
+//  TableViewXibFile2
 //
-//  Created by Amanda on 2022/2/13.
+//  Created by Amanda on 2022/2/15.
 //
 
 import UIKit
@@ -26,7 +26,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let cell = Bundle.main.loadNibNamed("TableViewCell", owner: self, options: nil)?.first as! TableViewCell
         cell.imgView.image = UIImage(named: images[indexPath.row])
         cell.lblImage.text = imageLabel[indexPath.row]
-        
         return cell
     }
 
